@@ -27,7 +27,10 @@ document.addEventListener("DOMContentLoaded",() => {
     // Function to display menu items
 
     function displayMenu(items) {
-        
+        menuContainer.innerHTML = "";
+        items.forEach(item => {
+            const menuItem = document.createElement("div")
+        });
     }
 
 })
