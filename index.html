@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princeley Delicacies Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Delicacies</h1>
+    </header>
+
+    <main>
+        <section id="filter-section">
+            <button id="all-btn">All Items</button>
+            <button id="appetizer-btn">Appetizers</button>
+            <button id="main-btn">Main Dishes</button>
+            <button id="dessert-btn">Desserts</button>
+        </section>
+
+        <section id="menu-items"></section>
+
+        <!--Menu items will be dynamically inserted here-->
+
+        <section id="cart-section">
+            <h2> Your Order</h2>
+            <ul id="cart-items"></ul>
+            <p>Total:$ <span id="total">0.00</span></p>
+            <button id="order-btn">Place Your Order</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
