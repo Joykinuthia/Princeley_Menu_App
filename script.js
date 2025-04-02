@@ -50,8 +50,11 @@ document.addEventListener("DOMContentLoaded",() => {
         cart.forEach(item => {
             total += item.price;
             const cartItem = document.createElement("li");
-            cartItem.textContent = ``
+            cartItem.textContent = `${item.name} - ${item.price.toFixed(2)}`;
+            cartContainer.appendChild(cartItem);
         })
+
+        total
     }
 
 })
