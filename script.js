@@ -82,5 +82,15 @@ document.addEventListener("DOMContentLoaded",() => {
         })
     })
 
-    //place order
+    //place order event
+
+    orderButton.addEventListener("click", () => {
+        if(cart.length === 0) {
+            alert("Your cart is empty!");
+        }else {
+            alert("Order placed successfully!");
+            cart = [];
+            updateCart();
+        }
+    })
 })
