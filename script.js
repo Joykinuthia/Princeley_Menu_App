@@ -30,6 +30,15 @@ document.addEventListener("DOMContentLoaded",() => {
         menuContainer.innerHTML = "";
         items.forEach(item => {
             const menuItem = document.createElement("div")
+            menuItem.classList.add("menu-item");
+            menuItem.innerHTML = `
+            <img scr ="${item.image}" alt = "${item.name}>
+            <h3> ${item.name}</h3>
+            <p> ${item.description}</p>
+            <p class="price">$${item.price.toFixed(2)}</p>
+            <button class = "addToCart" data-id= "${item.id}">Add to Cart</button`;
+
+            menuContainer.appendChild(menuItem);
         });
     }
 
