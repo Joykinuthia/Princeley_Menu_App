@@ -13,4 +13,15 @@ document.addEventListener("DOMContentLoaded",() => {
     let menuData = [];
     let cart = [];
 
+
+    // Fetch menu data from json server
+
+    fetch("http://localhost:3000/menu")
+        .then(response => response.json())
+        .then(data => {
+            menuData = data;
+            displayMenu(menuData);
+        })
+        .catch(error => console.error("Error fetching menu data:", error));
+
 })

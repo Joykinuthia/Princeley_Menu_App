@@ -1,0 +1,44 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Caesar Salad",
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan cheese.",
+        "price": 8.99,
+        "category": "appetizer",
+        "image": "https://example.com/caesar_salad.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bruschetta",
+        "description": "Grilled bread topped with diced tomatoes, garlic, basil, and olive oil.",
+        "price": 7.99,
+        "category": "appetizer",
+        "image": "https://example.com/bruschetta.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon fillet grilled to perfection with lemon butter sauce.",
+        "price": 18.99,
+        "category": "main",
+        "image": "https://example.com/grilled_salmon.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Spaghetti Carbonara",
+        "description": "Classic Italian pasta dish with creamy egg-based sauce, pancetta, and parmesan cheese.",
+        "price": 14.99,
+        "category": "main",
+        "image": "https://example.com/spaghetti_carbonara.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Lava Cake",
+        "description": "Rich chocolate cake with a gooey molten center, served with vanilla ice cream.",
+        "price": 6.99,
+        "category": "dessert",
+        "image": "https://example.com/lava_cake.jpg"
+      }
+    ]
+  }
