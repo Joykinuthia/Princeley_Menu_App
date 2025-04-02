@@ -24,4 +24,10 @@ document.addEventListener("DOMContentLoaded",() => {
         })
         .catch(error => console.error("Error fetching menu data:", error));
 
+    // Function to display menu items
+
+    function displayMenu(items) {
+        
+    }
+
 })
