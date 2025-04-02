@@ -42,4 +42,10 @@ document.addEventListener("DOMContentLoaded",() => {
         });
     }
 
+    //Function to update cart
+
+    function updateCart () {
+        
+    }
+
 })
