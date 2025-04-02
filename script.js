@@ -45,7 +45,13 @@ document.addEventListener("DOMContentLoaded",() => {
     //Function to update cart
 
     function updateCart () {
-        
+        cartContainer.innerHTML ="";
+        let total = 0;
+        cart.forEach(item => {
+            total += item.price;
+            const cartItem = document.createElement("li");
+            cartItem.textContent = ``
+        })
     }
 
 })
